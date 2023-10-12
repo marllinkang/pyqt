@@ -51,8 +51,6 @@ from PyQt5.QtGui import *
 from PyQt5 import uic
 
 
-
-
 from_class = uic.loadUiType("Test.ui")[0]
 
 class WindowClass(QMainWindow, from_class) :
