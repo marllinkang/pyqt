@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5 import uic
 
+# 가장 기본 내용
+
 from_class = uic.loadUiType("HelloQt.ui")[0]
 
 class WindowClass(QMainWindow, from_class) :
